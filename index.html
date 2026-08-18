@@ -10,10 +10,21 @@
 
   <header class="site-header">
     <h1 class="logo">MyStream</h1>
+    <input type="text" class="search-box" placeholder="Search videos...">
   </header>
 
+  <nav class="categories">
+    <button class="cat-btn active">All</button>
+    <button class="cat-btn">Vlogs</button>
+    <button class="cat-btn">Tutorials</button>
+    <button class="cat-btn">Music</button>
+    <button class="cat-btn">Gaming</button>
+  </nav>
+
   <main class="content">
-    <p>Welcome! Website बन रही है 🎬</p>
+    <div class="video-grid" id="videoGrid">
+      <p class="empty-state">अभी कोई video published नहीं है।</p>
+    </div>
   </main>
 
   <script src="script.js"></script>
